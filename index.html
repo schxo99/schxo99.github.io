@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Main</title>
-    </head>
-    <body>
-        <h1>Tennis market</h1>
-        <div>
-            Welcom to Tennis market!
-            <br>
-            Enjoy your shopping.
-            <br>
-            <br>
-            <a>order list</a>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>신찬휘의 포트폴리오</h1>
+            <p>안녕하세요,<br>늘 고민하는 개발자 신찬휘입니다.<br>제 프로젝트들을 소개합니다.</p>
+        </header>
+
+        <div class="projects">
+            <div class="project">
+                <img src="./image/cctv.png"/>
+                <h2>폭력감지 시스템</h2>
+                <button onclick="location.href='https://github.com/schxo99/violence-detection-system'">자세히 보러가기</button>
+            </div>
+
+            <div class="project">
+                <img src="./image/map.png">
+                <h2>배리어 회피 길찾기</h2>
+                <button onclick="location.href='https://github.com/schxo99/disabled-route-creation-app'">자세히 보러가기</button>
+            </div>
+
+            <div class="project">
+                <img src="./image/music.png" alt="음성학습을 활용한 AI-Entertainment">
+                <h2>음성학습을 활용한 AI-Entertainment</h2>
+                <button onclick="location.href='https://github.com/schxo99/AI-Entertainment'">자세히 보러가기</button>
+            </div>
         </div>
-        <div class="card">
-            <img class="card_img" src="">
-            <p class="card_title"> Red Racket </p>
-            <input class="card_button" type="button" value="order" onclick="alert(1)">
-        </div>
-        <div class="card">
-            <img class="card_img" src="">
-            <p class="card_title"> Blue Racket </p>
-            <input class="card_button" type="button" value="order" onclick="alert(2)">
-        </div>
-        <div class="card">
-            <img class="card_img" src="">
-            <p class="card_title"> Black Racket </p>
-            <input class="card_button" type="button" value="order" onclick="alert(3)">
-        </div>
-    </body>
+    </div>
+</body>
 </html>
